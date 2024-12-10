@@ -1,0 +1,8 @@
+# config.yaml
+embedding_model:
+  type: "sentence-transformers"
+  sentence_transformers:
+    model_name: "intfloat/multilingual-e5-base"
+  openai:
+    api_key: "your-openai-api-key"
+    model_name: "openai-model-name"
